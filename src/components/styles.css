@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  li span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  li a:hover {
+    color: #004999;
+  }
+  
+  li button {
+    background-color: #cc0000;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #990000;
+  }
+  .buttonAdd {
+    display: inline-block;
+    margin-bottom: 1rem; /* Ajusta o espaço abaixo do botão */
+  }
+  
+  .buttonAdd a {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    font-weight: bold; /* Texto em negrito */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    border-radius: 0.25rem; /* Borda arredondada */
+    text-decoration: none; /* Remove o sublinhado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease; /* Transição suave */
+  }
+  
+  .buttonAdd a:hover {
+    background-color: #0056b3; /* Cor de fundo azul escuro no hover */
+  }
+  
